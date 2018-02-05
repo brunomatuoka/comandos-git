@@ -1,0 +1,27 @@
+//criando um repositório(primeira coisa quando tiver um projeto para add no git, não importa se ja exite ou se será criado)
+ git init
+
+// adicionando os arquivos no stage para incluir todos os arquivos
+ git add .
+
+// adicionando arquivos por arquivo no stage
+ git add NOME-DO-ARQUIVO
+
+//commit
+ git commit -m "COMENTÁRIO DO COMMIT"
+
+// adicionando e commitando ao mesmo tempo
+ git commit -am "COMENTÁRIO DO COMMIT"
+
+// verificar se já está vinculado a nuvem(github)
+ git remote
+
+// verificar se já está vinculado a nuvem(github), informações mais detalhadas
+ git remote -v
+
+// vincular o repositório local já existente com a nuvem(github). 
+// IMPORTANTE criar uma pasta com o mesmo nome do repositório local na nuvem(github).
+ git remote add origin https://github.com/brunomatuoka/meat-app-starter-master.git
+
+// enviar todas as alterações locais para a nuvem(github)
+ git push -u origin master
